@@ -1,10 +1,5 @@
 # Hello World iOS App (Practical 8)
 
-## Student Information
-* **Name:** Dhruvil Gandhi[cite: 1]
-* **Enrollment Number:** 25012012005[cite: 1]
-* **Batch:** CE-H-1[cite: 1]
-
 ---
 
 ## Aim
