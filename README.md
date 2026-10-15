@@ -44,3 +44,7 @@ The project contains two primary source code files in the project navigator[cite
 * **Using SwiftUI Previews:**
   * Switch to the `ContentView.swift` file to view the live preview canvas[cite: 5].
   * Click the **Resume** button in the preview window to synchronize changes instantly between code and layout[cite: 5].
+## Student Information
+* **Name:** Tilak Pandya[cite: 1]
+* **Enrollment Number:** 25012012037[cite: 1]
+* **Batch:** CE-H-1[cite: 1]
