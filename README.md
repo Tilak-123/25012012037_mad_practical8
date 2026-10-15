@@ -1,42 +1,46 @@
-# Practical 8: First "Hello World" App
+# Hello World iOS App (Practical 8)
 
-## Overview
-This repository contains the implementation for **Practical 8** of the Mobile Application Development (MAD) lab curriculum. The objective of this practical is to create, configure, understand, and run a baseline "Hello World" iOS application using **SwiftUI** and **Xcode**[cite: 1, 4].
+## Student Information
+* **Name:** Dhruvil Gandhi[cite: 1]
+* **Enrollment Number:** 25012012005[cite: 1]
+* **Batch:** CE-H-1[cite: 1]
 
 ---
 
 ## Aim
-To create your first "Hello World" iOS application using SwiftUI.
+Create your first Hello World iOS app in SwiftUI[cite: 1].
 
 ---
 
-## Project Specifications
-
-| Attribute | Value |
-| :--- | :--- |
-| **Product Name** | `hello world` |
-| **Interface** | SwiftUI[cite: 2] |
-| **Language** | Swift[cite: 2] |
-| **Organization Identifier** | `apprentice`[cite: 2] |
-| **Bundle Identifier** | `apprentice.hello-world`[cite: 2] |
-| **Target Device / Simulator** | iPhone 13 (iOS 15.4+) |
-| **Version Control** | Git initialized locally[cite: 2] |
+## Project Overview
+This project is a basic iOS application built using Xcode, SwiftUI, and the Swift programming language[cite: 1, 2]. It serves as an introductory guide to setting up an iOS project, understanding its core file structure, running the app on a simulator, and utilizing live SwiftUI previews[cite: 1, 3, 4, 5].
 
 ---
 
-## File Structure & Code Explanation
+## Step-by-Step Implementation Guide
 
-### 1. `hello_worldApp.swift`
-Defines the main entry point and lifecycle of the application. It utilizes the `@main` attribute and declares the primary app scene wrapped in a `WindowGroup`:
+### 1. Creating a New Project in Xcode
+* Open Xcode and navigate to **File -> New -> Project...**[cite: 1]
+* Select the **App** template from the **Application** section under the **iOS** tab[cite: 1].
+* Configure the project options as follows:
+  * **Product Name:** `hello world`[cite: 2]
+  * **Team:** None[cite: 2]
+  * **Organization Identifier:** `apprentice`[cite: 2]
+  * **Bundle Identifier:** `apprentice.hello-world`[cite: 2]
+  * **Interface:** SwiftUI[cite: 2]
+  * **Language:** Swift[cite: 2]
+  * **Core Data & Unit Tests:** Ensure both options remain unchecked (deselected) as they are not needed for a basic app[cite: 1, 2].
+* Check **Create Git repository on my Mac** to initialize version control, then save the project[cite: 2].
 
-```swift
-import SwiftUI
+### 2. Understanding Project File Structure
+The project contains two primary source code files in the project navigator[cite: 3]:
+* **`hello_worldApp.swift`**: Defines the main entry point and structure of the app using the `@main` attribute[cite: 3]. It utilizes a custom structure conforming to the `App` protocol to handle the app's window group and view hierarchy[cite: 3].
+* **`ContentView.swift`**: Contains the primary user interface code using a structure conforming to the `View` protocol, displaying the default `Text("Hello, world!")` view with padding[cite: 3].
 
-@main
-struct hello_worldApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+### 3. Running and Previewing the App
+* **Using the iOS Simulator:**
+  * Select a target simulator (e.g., iPhone 13) from the dropdown menu at the top of the Xcode window[cite: 4, 5].
+  * Click the **Play** (run) button in the top-left corner to build and launch the application in the simulator[cite: 5].
+* **Using SwiftUI Previews:**
+  * Switch to the `ContentView.swift` file to view the live preview canvas[cite: 5].
+  * Click the **Resume** button in the preview window to synchronize changes instantly between code and layout[cite: 5].
